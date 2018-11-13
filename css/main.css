@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+}
+
+header {
+  text-align: center;
+  font-family: "MedievalSharp", serif;
+}
+
+header,
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h3,
+hr {
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: "Tangerine", "Arial", serif;
+  font-size: 20px;
+  margin: 10px auto;
+}

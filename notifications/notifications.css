@@ -1,0 +1,88 @@
+#notification {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  box-sizing: border-box;
+  display: none;
+}
+
+.modal-wrapper {
+  margin: 0;
+  width: 300px;
+  height: 200px;
+  border: 2px dotted rebeccapurple;
+  border-radius: 5px;
+  background: lightcyan;
+  padding: 20px;
+}
+
+.modal-header-wrapper {
+  width: 100%;
+  display: inline-block;
+}
+
+.modal-header {
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+}
+
+#modal-button-close {
+  float: right;
+  cursor: pointer;
+}
+
+#modal-content {
+  height: 70%;
+}
+#modal-content p {
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  text-align: justify;
+}
+#modal-content p > strong {
+  display: block;
+  float: right;
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 16px;
+  text-align: right;
+}
+
+.modal-footer-wrapper {
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+
+.modal-footer-checkbox {
+  float: left;
+  padding-right: 20px;
+}
+
+.modal-footer-controls {
+  float: left;
+  display: inline-block;
+}
+
+#controls {
+  list-style: none;
+  display: inline;
+}
+
+#controls-left,
+#controls-right {
+  padding-right: 5px;
+  display: inline;
+  cursor: pointer;
+}
+
+.controls-item {
+  display: inline;
+  list-style-type: none;
+  padding-right: 5px;
+  cursor: pointer;
+}

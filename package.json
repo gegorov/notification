@@ -1,0 +1,19 @@
+{
+  "name": "codejam-dom",
+  "version": "0.0.1",
+  "description": "codejam-dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gennadi Egorov",
+  "license": "WTFPL",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "stylelint": "^9.8.0",
+    "stylelint-config-htmlacademy": "^0.1.1"
+  }
+}
